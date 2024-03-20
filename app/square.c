@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include "roots.h"
+#include "square.h"
 
-int roots(double* arr, double a, double b, double c){
+int square(double* arr, double a, double b, double c){
     double d = b * b - 4 * a * c;
     if (d<0 || a == 0) return 0;
     d = sqrt(d);

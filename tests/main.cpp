@@ -1,4 +1,4 @@
-#include "tst_roots.h"
+#include "tst_square.h"
 #include <gtest/gtest.h>
 
 int main(int argc, char *argv[])

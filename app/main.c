@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "roots.h"
+#include "square.h"
 
 int main() {
     double arr[2];
-    if (roots(arr, 1, -5, 6)){
+    if (square(arr, 1, -5, 6)){
         printf("%f %f\n", arr[0], arr[1]);
     }
     else{
-        printf("NO ROOTS");
+        printf("square not square");
     }
     return 0;
 }

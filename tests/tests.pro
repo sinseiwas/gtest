@@ -17,9 +17,9 @@ LIBS += -lgcov
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
 HEADERS +=      \
-    ../app/roots.h 
+    ../app/square.h 
 
 SOURCES +=     main.cpp \
-    ../app/roots.c
+    ../app/square.c
 
 INCLUDEPATH += ../app
