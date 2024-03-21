@@ -22,10 +22,10 @@ TEST(square, right_answer) {
 }
 
 TEST(square, float_input_float_out) {
-    result = square(arr, 2, -7, 3.5);
+    result = square(arr, 2, -7, 3);
     ASSERT_EQ(result, 1);
     ASSERT_EQ(arr[0], 0.5);
-    ASSERT_EQ(arr[1], 3.5);
+    ASSERT_EQ(arr[1], 3);
 }
 
 TEST(square, one_square) {
