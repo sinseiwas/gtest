@@ -1,5 +1,5 @@
-#ifndef TST_square_H
-#define TST_square_H
+#ifndef TST_SQUARE_H
+#define TST_SQUARE_H
 
 #include <gtest/gtest.h>
 
