@@ -15,24 +15,24 @@ int result;
 double arr[2];
 
 TEST(square, right_answer) {
-    result = square(arr, 1, -9, 18);
+    result = square(arr, 1, -5, 6);
     ASSERT_EQ(result, 1);
     ASSERT_EQ(arr[0], 3);
-    ASSERT_EQ(arr[1], 6);
+    ASSERT_EQ(arr[1], 2);
 }
 
 TEST(square, float_input_float_out) {
-    result = square(arr, 2, -7, 3);
+    result = square(arr, 2, -4, 3.75);
     ASSERT_EQ(result, 1);
-    ASSERT_EQ(arr[0], 0.5);
-    ASSERT_EQ(arr[1], 3);
+    ASSERT_EQ(arr[0], 2.5);
+    ASSERT_EQ(arr[1], 1.5);
 }
 
 TEST(square, one_square) {
-    result = square(arr, 2, -6, 4);
+    result = square(arr, 2, -6, 9);
     ASSERT_EQ(result, 1);
-    ASSERT_EQ(arr[0], 2);
-    ASSERT_EQ(arr[1], 2);
+    ASSERT_EQ(arr[0], 3);
+    ASSERT_EQ(arr[1], 3);
 }
 
 TEST(square, invalid) {
