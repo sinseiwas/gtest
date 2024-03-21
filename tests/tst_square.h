@@ -15,33 +15,33 @@ int result;
 double arr[2];
 
 TEST(square, right_answer) {
-    result = square(arr, 1, -5, 6);
+    result = square(arr, 1, -9, 18);
     ASSERT_EQ(result, 1);
     ASSERT_EQ(arr[0], 3);
-    ASSERT_EQ(arr[1], 2);
+    ASSERT_EQ(arr[1], 6);
 }
 
 TEST(square, float_input_float_out) {
-    result = square(arr, 1, -4, 3.75);
+    result = square(arr, 2, -7, 3.5);
     ASSERT_EQ(result, 1);
-    ASSERT_EQ(arr[0], 2.5);
-    ASSERT_EQ(arr[1], 1.5);
+    ASSERT_EQ(arr[0], 0.5);
+    ASSERT_EQ(arr[1], 3.5);
 }
 
-TEST(square, one_root) {
-    result = square(arr, 1, -6, 9);
+TEST(square, one_square) {
+    result = square(arr, 2, -6, 4);
     ASSERT_EQ(result, 1);
-    ASSERT_EQ(arr[0], 3);
-    ASSERT_EQ(arr[1], 3);
+    ASSERT_EQ(arr[0], 2);
+    ASSERT_EQ(arr[1], 2);
 }
 
-TEST(square, invalid_input) {
+TEST(square, invalid) {
     result = square(arr, 0, 0, 0);
     ASSERT_EQ(result, 0);
 }
 
 
-TEST(square, no_root) {
+TEST(square, no_square) {
     result = square(arr, 1, 2, 3);
     ASSERT_EQ(result, 0);
 }
