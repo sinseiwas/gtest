@@ -4,9 +4,9 @@
 #include "square.h"
 
 int main() {
-    double arr[2];
-    if (square(arr, 1, -5, 6)){
-        printf("%f %f\n", arr[0], arr[1]);
+    double mas[2];
+    if (square(mas, 1, -5, 6)){
+        printf("%f %f\n", mas[0], mas[1]);
     }
     else{
         printf("square not square");
