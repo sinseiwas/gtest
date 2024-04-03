@@ -46,8 +46,10 @@ TEST(square, no_square) {
     ASSERT_EQ(result, 0);
 }
 
-TEST(main, main_is) {
-    main();
-    SUCCEED();
+TEST(MainTest, MainIs) {
+    // Вызов функции main() и проверка ее результата
+    ASSERT_NO_THROW({
+        main();
+    });
 }
 #endif // TST_square_H
