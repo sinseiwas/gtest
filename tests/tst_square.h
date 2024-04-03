@@ -1,4 +1,3 @@
-#ifndef EXCLUDE_MAIN_TESTS
 #define TST_square_H
 
 #include <gtest/gtest.h>
@@ -9,6 +8,7 @@
 
 extern "C" {
 #include "square.h"
+#include "main.c"
 }
 
 int result;
@@ -46,4 +46,8 @@ TEST(square, no_square) {
     ASSERT_EQ(result, 0);
 }
 
+TEST(main, main_is) {
+    main()
+    SUCCED()
+}
 #endif // TST_square_H
