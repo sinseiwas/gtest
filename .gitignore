@@ -6,4 +6,3 @@ app/app
 *.gcda
 *.gcno
 tests/tests
-app/main.c
