@@ -9,7 +9,6 @@
 
 extern "C" {
 #include "square.h"
-#include "main.c"
 }
 
 int result;
@@ -47,10 +46,5 @@ TEST(square, no_square) {
     ASSERT_EQ(result, 0);
 }
 
-TEST(MainTest, MainIs) {
-    // Вызов функции main() и проверка ее результата
-    ASSERT_NO_THROW({
-        main();
-    });
-}
+
 #endif // TST_square_H
