@@ -48,6 +48,6 @@ TEST(square, no_square) {
 
 TEST(main, main_is) {
     main();
-    SUCCED();
+    SUCCEED();
 }
 #endif // TST_square_H
