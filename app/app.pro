@@ -3,7 +3,8 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += square.c
+SOURCES += main.c \
+    square.c
 
 HEADERS += \
     square.h
