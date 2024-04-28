@@ -7,11 +7,9 @@ int main() {
     double mas[2];
     if (square(mas, 1, -5, 6)){
         printf("%f %f\n", mas[0], mas[1]);
-        return 0;
     }
     else{
         printf("square not square");
-        return 0;
     }
     return 0;
 }
