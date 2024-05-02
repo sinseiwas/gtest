@@ -11,6 +11,8 @@ extern "C" {
 #include "square.h"
 }
 
+int result;
+double arr[2];
 
 TEST(square, right_answer) {
     result = square(arr, 1, -5, 6);
