@@ -8,8 +8,5 @@ int main() {
     if (square(mas, 1, -5, 6)){
         printf("%f %f\n", mas[0], mas[1]);
     }
-    else{
-        printf("square not square");
-    }
     return 0;
 }
